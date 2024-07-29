@@ -1,0 +1,80 @@
+body {
+  background-color: silver;
+}
+
+/* definindo cor de fundo da nav */
+#div-pai {
+  display: grid;
+}
+
+h1 {
+  font-size: large 50px;
+  font-family: "Times New Roman";
+}
+
+h3 {
+  font-size: medium 50px;
+}
+
+/* definindo cor de fundo da nav */
+nav {
+  background-color: #333;
+}
+
+/* estilizando os elementos li no formato de linha */
+nav ul li {
+  display: inline-block;
+}
+
+/* estilizando a tag 'a', text decoration none para tirar a decoração padrão e adicionando uma leve transição */
+nav ul li a {
+  color: #fff;
+  padding: 15px 20px;
+  display: inline-block;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+/* definindo cor de fundo quando passar o mouse em cima das opções do menu */
+nav ul li a:hover {
+  background-color: #555;
+}
+
+#footer {
+  position: fixed; /* Posiciona o elemento de forma fixa na janela de visualização */
+  bottom: 0; /* Define a distância em relação ao rodapé (0 significa que o footer ficará colado no rodapé) */
+  left: 0; /* Alinha o footer à esquerda da janela de visualização */
+  width: 100%; /* Define a largura do footer para ocupar 100% da largura disponível */
+  background-color: #333; /* Define a cor de fundo do footer */
+  padding: 10px; /* Adiciona um espaçamento interno ao footer */
+  text-align: center; /* Centraliza o conteúdo do footer horizontalmente */
+}
+
+#footer-text {
+  /* cor do texto */
+  color: white;
+}
+
+#div2 {
+  display: flex;
+  justify-content: center;
+}
+
+/* Estilo para os screenshots */
+.screenshots {
+  display: flex;
+  align-items: flex-start; /* Alinha as imagens no topo */
+}
+
+.screenshot, .screenshot2 {
+  max-width: 45%; /* Ajuste conforme necessário */
+  height: auto; /* Mantém a proporção da imagem */
+  margin: 0 5px; /* Espaçamento entre as imagens */
+}
+
+.icon {
+  width: 30px; /* Ajuste conforme necessário */
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
