@@ -2,11 +2,6 @@ body {
   background-color: silver;
 }
 
-/* definindo cor de fundo da nav */
-#div-pai {
-  display: grid;
-}
-
 h1 {
   font-size: large 50px;
   font-family: "Times New Roman";
@@ -77,4 +72,3 @@ nav ul li a:hover {
   vertical-align: middle;
   margin-right: 10px;
 }
-

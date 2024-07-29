@@ -1,16 +1,27 @@
 body {
   background-color: silver;
 }
+
+h1 {
+  font-size: large 50px;
+  font-family: "Times New Roman";
+}
+
+h3 {
+  font-size: medium 50px;
+}
+
 /* definindo cor de fundo da nav */
 nav {
   background-color: #333;
 }
+
 /* estilizando os elementos li no formato de linha */
 nav ul li {
   display: inline-block;
 }
-/* estilizando a tag 'a', text decoration none para tirar a decoração padrao e adicionando
-    uma leve transição */
+
+/* estilizando a tag 'a', text decoration none para tirar a decoração padrão e adicionando uma leve transição */
 nav ul li a {
   color: #fff;
   padding: 15px 20px;
@@ -19,32 +30,9 @@ nav ul li a {
   transition: background-color 0.3s;
 }
 
-/* definindo cor de fundo quando passar o mouse em cima das opcoes do menu */
+/* definindo cor de fundo quando passar o mouse em cima das opções do menu */
 nav ul li a:hover {
   background-color: #555;
-}
-#div2 {
-  display: flex;
-  justify-content: center;
-}
-#p1 {
-  font-size: 20px;
-  font-family: "Courier New", Courier, monospace;
-}
-#div3 {
-  display: grid;
-  grid-template-columns: repeat(
-    2,
-    1fr
-  ); /* Cria duas colunas de tamanho igual */
-  gap: 10px; /* Define um espaçamento entre as imagens */
-}
-
-#div3 img {
-  width: 75%; /* Garante que as imagens ocupem 100% da largura das colunas */
-  height: auto; /* Mantém a proporção original da imagem */
-  margin-left: auto;
-  margin-right: auto;
 }
 
 #footer {
@@ -60,6 +48,23 @@ nav ul li a:hover {
 #footer-text {
   /* cor do texto */
   color: white;
+}
+
+#div2 {
+  display: flex;
+  justify-content: center;
+}
+
+/* Estilo para os screenshots */
+.screenshots {
+  display: flex;
+  align-items: flex-start; /* Alinha as imagens no topo */
+}
+
+.screenshot, .screenshot2 {
+  max-width: 45%; /* Ajuste conforme necessário */
+  height: auto; /* Mantém a proporção da imagem */
+  margin: 0 5px; /* Espaçamento entre as imagens */
 }
 
 .icon {
