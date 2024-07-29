@@ -35,7 +35,7 @@ nav ul li a:hover {
 }
 
 #footer {
-  position: fixed; /* Posiciona o elemento de forma fixa na janela de visualização */
+  position: static; /* Posiciona o elemento de forma fixa na janela de visualização */
   bottom: 0; /* Define a distância em relação ao rodapé (0 significa que o footer ficará colado no rodapé) */
   left: 0; /* Alinha o footer à esquerda da janela de visualização */
   width: 100%; /* Define a largura do footer para ocupar 100% da largura disponível */
@@ -80,8 +80,13 @@ tr:first-child {
   margin-right: 10px;
 }
 
-.icon {
-  width: 30px; /* Ajuste conforme necessário */
-  vertical-align: middle;
-  margin-right: 10px;
+.screenshots {
+  display: flex;
+  align-items: flex-start; /* Alinha as imagens no topo */
+}
+
+.screenshotTlgrm {
+  max-width: 30%; /* Ajuste conforme necessário */
+  height: auto; /* Mantém a proporção da imagem */
+  margin: 0 5px; /* Espaçamento entre as imagens */
 }
