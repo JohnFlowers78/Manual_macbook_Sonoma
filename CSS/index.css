@@ -3,25 +3,31 @@ body {
 }
 
 h1 {
-  font-size: large 50px;
+  font-size: large 50px; /* Correção: apenas um valor deve ser usado para font-size */
+  font-family: "Times New Roman";
+}
+
+h1.right {
+  text-align: right;
+  font-size: 50px;
   font-family: "Times New Roman";
 }
 
 h3 {
-  font-size: medium 50px;
+  font-size: medium 50px; /* Correção: apenas um valor deve ser usado para font-size */
 }
 
-/* definindo cor de fundo da nav */
+/* Definindo cor de fundo da nav */
 nav {
   background-color: #333;
 }
 
-/* estilizando os elementos li no formato de linha */
+/* Estilizando os elementos li no formato de linha */
 nav ul li {
   display: inline-block;
 }
 
-/* estilizando a tag 'a', text decoration none para tirar a decoração padrão e adicionando uma leve transição */
+/* Estilizando a tag 'a', text decoration none para tirar a decoração padrão e adicionando uma leve transição */
 nav ul li a {
   color: #fff;
   padding: 15px 20px;
@@ -30,7 +36,7 @@ nav ul li a {
   transition: background-color 0.3s;
 }
 
-/* definindo cor de fundo quando passar o mouse em cima das opções do menu */
+/* Definindo cor de fundo quando passar o mouse em cima das opções do menu */
 nav ul li a:hover {
   background-color: #555;
 }
@@ -46,25 +52,8 @@ nav ul li a:hover {
 }
 
 #footer-text {
-  /* cor do texto */
+  /* Cor do texto */
   color: white;
-}
-
-#div2 {
-  display: flex;
-  justify-content: center;
-}
-
-/* Estilo para os screenshots */
-.screenshots {
-  display: flex;
-  align-items: flex-start; /* Alinha as imagens no topo */
-}
-
-.screenshot, .screenshot2 {
-  max-width: 45%; /* Ajuste conforme necessário */
-  height: auto; /* Mantém a proporção da imagem */
-  margin: 0 5px; /* Espaçamento entre as imagens */
 }
 
 .icon {

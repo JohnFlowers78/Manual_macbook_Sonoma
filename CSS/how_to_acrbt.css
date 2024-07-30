@@ -35,7 +35,7 @@ nav ul li a:hover {
 }
 
 #footer {
-  position: fixed; /* Posiciona o elemento de forma fixa na janela de visualização */
+  position: static; /* Posiciona o elemento de forma fixa na janela de visualização */
   bottom: 0; /* Define a distância em relação ao rodapé (0 significa que o footer ficará colado no rodapé) */
   left: 0; /* Alinha o footer à esquerda da janela de visualização */
   width: 100%; /* Define a largura do footer para ocupar 100% da largura disponível */

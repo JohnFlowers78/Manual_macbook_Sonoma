@@ -85,6 +85,43 @@ tr:first-child {
   align-items: flex-start; /* Alinha as imagens no topo */
 }
 
+.screenshotDesinstall{
+  max-width: 40%; /* Ajuste conforme necessário */
+  height: auto; /* Mantém a proporção da imagem */
+  margin: 0 5px; /* Espaçamento entre as imagens */
+}
+
+.screenshotDesinstall2{
+  max-width: 30%; /* Ajuste conforme necessário */
+  height: auto; /* Mantém a proporção da imagem */
+  margin: 0 5px; /* Espaçamento entre as imagens */
+}
+
+.screenshotDesinstall3{
+  max-width: 20%; /* Ajuste conforme necessário */
+  height: auto; /* Mantém a proporção da imagem */
+  margin: 0 5px; /* Espaçamento entre as imagens */
+}
+
+.screenshotDesinstall4{
+  max-width: 17%; /* Ajuste conforme necessário */
+  height: auto; /* Mantém a proporção da imagem */
+  margin: 0 5px; /* Espaçamento entre as imagens */
+}
+
+.screenshotDesinstall5{
+  max-width: 45%; /* Ajuste conforme necessário */
+  height: auto; /* Mantém a proporção da imagem */
+  margin: 0 5px; /* Espaçamento entre as imagens */
+}
+
+.No_Account_Patcher{
+  max-width: 45%; /* Ajuste conforme necessário */
+  height: auto; /* Mantém a proporção da imagem */
+  margin: 0 5px; /* Espaçamento entre as imagens */
+}
+
+
 .screenshotTlgrm {
   max-width: 30%; /* Ajuste conforme necessário */
   height: auto; /* Mantém a proporção da imagem */
