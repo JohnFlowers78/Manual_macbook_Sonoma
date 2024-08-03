@@ -34,6 +34,12 @@ nav ul li a:hover {
   background-color: #555;
 }
 
+/* h3.right {
+  text-align: right;
+  font-size: 50px;
+  font-family: "Times New Roman";
+} */
+
 #footer {
   position: static; /* Posiciona o elemento de forma fixa na janela de visualização */
   bottom: 0; /* Define a distância em relação ao rodapé (0 significa que o footer ficará colado no rodapé) */
@@ -115,12 +121,76 @@ tr:first-child {
   margin: 0 5px; /* Espaçamento entre as imagens */
 }
 
-.No_Account_Patcher{
+.screenshotInstallPr{
   max-width: 45%; /* Ajuste conforme necessário */
   height: auto; /* Mantém a proporção da imagem */
   margin: 0 5px; /* Espaçamento entre as imagens */
 }
 
+.screenshotInstallPr2{
+  max-width: 45%; /* Ajuste conforme necessário */
+  height: auto; /* Mantém a proporção da imagem */
+  margin: 0 5px; /* Espaçamento entre as imagens */
+}
+
+.screenshotInstallPr3{
+  max-width: 45%; /* Ajuste conforme necessário */
+  height: auto; /* Mantém a proporção da imagem */
+  margin: 0 5px; /* Espaçamento entre as imagens */
+}
+.screenshotInstallPr4{
+  max-width: 45%; /* Ajuste conforme necessário */
+  height: auto; /* Mantém a proporção da imagem */
+  margin: 0 5px; /* Espaçamento entre as imagens */
+}
+.screenshotInstallPr5{
+  max-width: 24%; /* Ajuste conforme necessário */
+  height: auto; /* Mantém a proporção da imagem */
+  margin: 0 5px; /* Espaçamento entre as imagens */
+}
+.screenshotInstallPr6{
+  max-width: 45%; /* Ajuste conforme necessário */
+  height: auto; /* Mantém a proporção da imagem */
+  margin: 0 5px; /* Espaçamento entre as imagens */
+}
+.screenshotInstallPr7{
+  max-width: 28%; /* Ajuste conforme necessário */
+  height: auto; /* Mantém a proporção da imagem */
+  margin: 0 5px; /* Espaçamento entre as imagens */
+}
+.screenshotInstallPr8{
+  max-width: 40%; /* Ajuste conforme necessário */
+  height: auto; /* Mantém a proporção da imagem */
+  margin: 0 5px; /* Espaçamento entre as imagens */
+}
+.screenshotInstallPr9{
+  max-width: 40%; /* Ajuste conforme necessário */
+  height: auto; /* Mantém a proporção da imagem */
+  margin: 0 5px; /* Espaçamento entre as imagens */
+}
+.screenshotInstallPr10{
+  max-width: 45%; /* Ajuste conforme necessário */
+  height: auto; /* Mantém a proporção da imagem */
+  margin: 0 5px; /* Espaçamento entre as imagens */
+}
+
+.screenshotInstallPr11{
+  max-width: 45%; /* Ajuste conforme necessário */
+  height: auto; /* Mantém a proporção da imagem */
+  margin: 0 5px; /* Espaçamento entre as imagens */
+}
+
+.screenshotInstallPr12{
+  max-width: 45%; /* Ajuste conforme necessário */
+  height: auto; /* Mantém a proporção da imagem */
+  margin: 0 5px; /* Espaçamento entre as imagens */
+}
+
+.No_Account_Patcher{
+  max-width: 45%; /* Ajuste conforme necessário */
+  height: auto; /* Mantém a proporção da imagem */
+  margin: 0 5px; /* Espaçamento entre as imagens */
+}
 
 .screenshotTlgrm {
   max-width: 30%; /* Ajuste conforme necessário */
