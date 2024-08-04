@@ -1,0 +1,63 @@
+body {
+  background-color: silver;
+}
+
+h1 {
+  font-size: large 50px; /* Correção: apenas um valor deve ser usado para font-size */
+  font-family: "Times New Roman";
+}
+
+h1.right {
+  text-align: right;
+  font-size: 50px;
+  font-family: "Times New Roman";instrucoes_MonterG_Russo.html
+}
+
+h3 {
+  font-size: medium 50px; /* Correção: apenas um valor deve ser usado para font-size */
+}
+
+/* Definindo cor de fundo da nav */
+nav {
+  background-color: #333;
+}
+
+/* Estilizando os elementos li no formato de linha */
+nav ul li {
+  display: inline-block;
+}
+
+/* Estilizando a tag 'a', text decoration none para tirar a decoração padrão e adicionando uma leve transição */
+nav ul li a {
+  color: #fff;
+  padding: 15px 20px;
+  display: inline-block;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+/* Definindo cor de fundo quando passar o mouse em cima das opções do menu */
+nav ul li a:hover {
+  background-color: #555;
+}
+
+#footer {
+  position: static; /* fixed */    /* Posiciona o elemento de forma fixa na janela de visualização */
+  bottom: 0; /* Define a distância em relação ao rodapé (0 significa que o footer ficará colado no rodapé) */
+  left: 0; /* Alinha o footer à esquerda da janela de visualização */
+  width: 100%; /* Define a largura do footer para ocupar 100% da largura disponível */
+  background-color: #333; /* Define a cor de fundo do footer */
+  padding: 10px; /* Adiciona um espaçamento interno ao footer */
+  text-align: center; /* Centraliza o conteúdo do footer horizontalmente */
+}
+
+#footer-text {
+  /* Cor do texto */
+  color: white;
+}
+
+.icon {
+  width: 30px; /* Ajuste conforme necessário */
+  vertical-align: middle;
+  margin-right: 10px;
+}

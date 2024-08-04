@@ -175,7 +175,7 @@ tr:first-child {
 }
 
 .screenshotInstallPr11{
-  max-width: 45%; /* Ajuste conforme necessário */
+  max-width: 60%; /* Ajuste conforme necessário */
   height: auto; /* Mantém a proporção da imagem */
   margin: 0 5px; /* Espaçamento entre as imagens */
 }
@@ -186,7 +186,19 @@ tr:first-child {
   margin: 0 5px; /* Espaçamento entre as imagens */
 }
 
+.screenshotInstallPr13{
+  max-width: 45%; /* Ajuste conforme necessário */
+  height: auto; /* Mantém a proporção da imagem */
+  margin: 0 5px; /* Espaçamento entre as imagens */
+}
+
 .No_Account_Patcher{
+  max-width: 45%; /* Ajuste conforme necessário */
+  height: auto; /* Mantém a proporção da imagem */
+  margin: 0 5px; /* Espaçamento entre as imagens */
+}
+
+.No_Account_Patcher2{
   max-width: 45%; /* Ajuste conforme necessário */
   height: auto; /* Mantém a proporção da imagem */
   margin: 0 5px; /* Espaçamento entre as imagens */
